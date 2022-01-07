@@ -30,7 +30,7 @@ namespace FindPatter
 				KiShadowProcessorAllocation
 
 				48 8D ? ? ? ? FF 48 8B ? E8 ? ? ?  FF 4C 8D 05  ? ? ? ?  48 8B ?  44 ? ? 48 8B C8 E8
-				work 7 sp1 - 11 windows pattern unique and should  be work ?
+				work 7 sp1,10,11 windows pattern unique and should  be work ? (7,8.1 and maybe 8 don't have export KiShadowProcessorAllocation)
 				*/
 				if (*reinterpret_cast<uint8_t*>(current_address) == 0x48
 					&& *reinterpret_cast<uint8_t*>(current_address + 1) == 0x8D
