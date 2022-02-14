@@ -12,7 +12,7 @@ namespace FindPatter
 	/*
 	original	https://www.unknowncheats.me/forum/3238153-post14.html
 
-	Sample some signature:
+	VfPowerDumpIrpStack signature:
 	48 8D 3D ? ? ? FF 48 8B 8C ? ? ? ? ? E8
 
 	*/
