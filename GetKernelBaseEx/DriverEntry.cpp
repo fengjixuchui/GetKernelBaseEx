@@ -1,5 +1,5 @@
 
-#include "PatternnNtoSkrnl.hpp"
+#include "PatternNtOskrnl.hpp"
 
 
 NTSTATUS DriverEntry(uint64_t baseNtoskrnl, IN PUNICODE_STRING pRegistryPath)
